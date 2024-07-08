@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import RecipeGenerator from './components/RecipeGenerator'
 
 function App() {
   return (
     <>
-      <h1>Generador de recetas con OpenAI</h1>
+      <RecipeGenerator/>
     </>
   )
 }
