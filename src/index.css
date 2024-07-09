@@ -46,3 +46,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.recipe-title{
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.recipe-content{
+  font-size: 1em;
+  line-height: 1.5;
+}
