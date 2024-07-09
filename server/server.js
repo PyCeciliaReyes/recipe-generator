@@ -23,7 +23,8 @@ app.post('/generate', async (req, res) => {
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
         messages: [{ role: 'system', content: `Crea una receta con los siguientes ingredientes: ${ingredients}` }],
-        max_tokens: 190
+        max_tokens: 500,
+        temperature: 0.3
       })
     });
 
